@@ -17,6 +17,10 @@ namespace _1._Hello_World // project name (however will work fine if something r
              */
             Console.WriteLine("Hello, World!"); // print to console (; is required)
 
+            Console.Write("Your name is "); // this will not make the next console write go to the next line
+            Console.WriteLine("Mike");
+
+
             // if not using a terminal (like we are on Linux) and you console is just opening and closing
             // (looking at you windows), then you can attach the below so it waits for input before closing
             // the window
