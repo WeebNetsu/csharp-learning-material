@@ -58,6 +58,17 @@ decimal accuratePi = 3.14149M;
 // can still show min and max values for them all
 Console.WriteLine(double.MaxValue);
 
+// by specifying a "?", you say that this variable may not contain a value and be null
+int? possiblyEmpty = null; // null means nothing, empty
+System.Console.WriteLine(possiblyEmpty); // notice it prints out an empty line
+
+
+var auto = 7; // var will automatically determine data type (not recommended)
+// Note that if you need to store long, decimal, float or similar values in it that needs a letter
+// it may not auto guess it correctly if you do not specify the letter
+var longNum = 12348; // it will see it as an int not a long
+var long2 = 12345L; // it will see it as a long, since we specified L
+
 
 const string test = "Hello World";
 // test = "new value"; // will throw error, as you cannot change a constant value

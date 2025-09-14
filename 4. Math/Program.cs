@@ -54,12 +54,17 @@ int evenValue = 20 % 2;
 System.Console.WriteLine(oddValue); // 1 so odd
 System.Console.WriteLine(evenValue); // 0 so even
 
-const int num = 10;
+const int num = 15;
 
 // note because num is a constant, you cannot change the value inside num
 // num = 15; // error
 // num += 5; // error
 System.Console.WriteLine(num + 10); // no error since num is not changed
+
+System.Console.WriteLine(50 * (num / 100)); // in this case we try to get 15% of 50 (7.5) but it returns 0 because 15 / 100 = 0.15 which gets truncated to 0 => 50 * 0 = 0
+System.Console.WriteLine(50 * (num / 100.0)); // this will specify to make it a double => 50 * 0.15 = 7.5
+System.Console.WriteLine(50 * (num / 100D)); // or you can specify 100 is a double and that will make it a double
+// both of the above methods works, because at least 1 number in that equation is a double
 
 // note that modulo can be any value, not just 2
 System.Console.WriteLine(50 % 11); // 11 22 33 44 -> 6 remainder
