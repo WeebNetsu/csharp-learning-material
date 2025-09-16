@@ -1,9 +1,6 @@
-﻿namespace _5._User_Input
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+﻿namespace _5._User_Input {
+    class Program {
+        static void Main(string[] args) {
             // first way to get user input is with args, these are passed in when you run via the terminal
             // dotnet run hello world
             // NOTE this works both with and without needing to specify static void Main(string[] args)

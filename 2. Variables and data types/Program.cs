@@ -21,7 +21,6 @@ name = "Jack";
 // below is an example of in how OLD C#, you could write Console.WriteLine without needing to specify "using System;"
 System.Console.WriteLine("Someday I would like to change my name to " + name);
 
-
 // you can also declare variables on the same line if they are the same data type
 int x, y, z;
 x = 10;
@@ -32,7 +31,6 @@ z = 30;
 int a = 2,
     b = 4,
     c = 6;
-
 
 // other data types
 char rankInGame = 'B'; // stores 1 letter, note single quotes
@@ -68,7 +66,6 @@ var auto = 7; // var will automatically determine data type (not recommended)
 // it may not auto guess it correctly if you do not specify the letter
 var longNum = 12348; // it will see it as an int not a long
 var long2 = 12345L; // it will see it as a long, since we specified L
-
 
 const string test = "Hello World";
 // test = "new value"; // will throw error, as you cannot change a constant value
