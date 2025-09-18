@@ -4,3 +4,4 @@
 4. Math
 5. User Input [Working with strings]
 6. If Statements [Working with strings, User Input]
+7. Switch Statements [If statements]
